@@ -4,13 +4,13 @@ def reverse_each_word(sentence)
   #arrayNew = sentence.split()
   sentence.collect().each{|words|
   #if counter < arrayNew.count
-    newSent << "#{words.reverse}"
+    words.reverse
     
   #else 
     #newSent << "#{words.reverse}"
   #end
   }
-  newSent.join(" ")
+  #newSent.join(" ")
 end 
 
 
