@@ -10,7 +10,7 @@ def reverse_each_word(sentence)
     #newSent << "#{words.reverse}"
   #end
   }
-  #newSent.join(" ")
+  sentence.split()
 end 
 
 
