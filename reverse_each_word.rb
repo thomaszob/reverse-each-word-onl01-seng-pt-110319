@@ -1,6 +1,6 @@
 def reverse_each_word(sentence)
   newSent = ""
-  counter = 2
+  counter = 4
   arrayNew = sentence.split(" ")
   sentence.split(" ").each{|words|
   if counter < arrayNew.length 
