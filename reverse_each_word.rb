@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
   newSent = []
   #counter = 4
   #arrayNew = sentence.split()
-  sentence.collect().each{|words|
+  sentence.split().collect{|words|
   #if counter < arrayNew.count
     words.reverse
     
