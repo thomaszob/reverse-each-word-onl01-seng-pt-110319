@@ -7,6 +7,7 @@ def reverse_each_word(sentence)
     counter += 1
   else 
     newSent << "#{words.reverse}"
+  end
   }
   newSent
 end 
