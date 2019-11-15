@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
   newSent = ""
   sentence.split(" ").map{|words|
-    newSent << words.
+    newSent << words.reverse 
   }
   
 end 
