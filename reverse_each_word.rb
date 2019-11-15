@@ -1,6 +1,6 @@
 def reverse_each_word(sentence)
   newSent = ""
-  sentence.split(" ").map{|words|
+  sentence.split(" ").each{|words|
     newSent << words.reverse 
   }
   
